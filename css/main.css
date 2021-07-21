@@ -44,6 +44,11 @@ html, body {
   font-size: 1.25rem;
   line-height: 2.5rem; }
 
+.other-link {
+  color: inherit;
+  opacity: 0.9;
+}
+
 .nav-link {
   padding: 0;
   font-size: 1rem;
@@ -52,8 +57,10 @@ html, body {
   opacity: 0.8; }
 
 .header-social .nav-link {
-  font-size: 1.25rem; }
+  font-size: 1.4rem; }
 
+.other-link:hover,
+.other-link:focus,
 .nav-link:hover,
 .nav-link:focus {
   color: inherit;
